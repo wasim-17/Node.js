@@ -1,20 +1,26 @@
 {
-  "name": "node",
+  "name": "node-sandbox", 
   "version": "1.0.0",
   "description": "A sandbox for exploring Node.js fundamentals through small projects.",
-  "homepage": "https://github.com/wasim-17/Node.js#readme",
-  "bugs": {
-    "url": "https://github.com/wasim-17/Node.js/issues"
+  "main": "hello.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node hello.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wasim-17/Node.js.git"
   },
+  "keywords": [
+    "node",
+    "sandbox",
+    "commonjs"
+  ],
+  "author": "wasim-17",
   "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "hello.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "bugs": {
+    "url": "https://github.com/wasim-17/Node.js/issues"
+  },
+  "homepage": "https://github.com/wasim-17/Node.js#readme"
 }

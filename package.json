@@ -1,26 +1,20 @@
 {
-  "name": "node-sandbox", 
+  "name": "wild-horizons",
   "version": "1.0.0",
   "description": "A sandbox for exploring Node.js fundamentals through small projects.",
-  "main": "hello.js",
-  "type": "commonjs",
-  "scripts": {
-    "start": "node hello.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/wasim-17/Node.js#readme",
+  "bugs": {
+    "url": "https://github.com/wasim-17/Node.js/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wasim-17/Node.js.git"
   },
-  "keywords": [
-    "node",
-    "sandbox",
-    "commonjs"
-  ],
-  "author": "wasim-17",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wasim-17/Node.js/issues"
-  },
-  "homepage": "https://github.com/wasim-17/Node.js#readme"
+  "author": "Wasim Akram",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
 }

@@ -1,7 +1,7 @@
 {
-  "name": "wild-horizons",
+  "name": "node",
   "version": "1.0.0",
-  "description": "A sandbox for exploring Node.js fundamentals through small projects.",
+  "description": "",
   "homepage": "https://github.com/wasim-17/Node.js#readme",
   "bugs": {
     "url": "https://github.com/wasim-17/Node.js/issues"
@@ -11,10 +11,13 @@
     "url": "git+https://github.com/wasim-17/Node.js.git"
   },
   "license": "ISC",
-  "author": "Wasim Akram",
+  "author": "",
   "type": "module",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
